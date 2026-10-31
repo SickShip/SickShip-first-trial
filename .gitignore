@@ -21,6 +21,23 @@ __pycache__/
 .venv/
 venv/
 
-# 环境变量
+# 环境变量与密钥
 .env
 .env.local
+.env.*.local
+*.pem
+*.key
+
+# AI 工具本地数据（WorkBuddy 会话记录、记忆等，仅本机使用）
+.workbuddy/
+
+# 测试与缓存
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+*.log.*
+
+# Windows 系统文件
+$RECYCLE.BIN/
+*.lnk
